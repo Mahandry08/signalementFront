@@ -36,7 +36,7 @@ function AdvancedSearch() {
   }
 
   const getStatus = () =>{
-    api.get('/status',{
+    api.get('/statu',{
       headers: {
         'Accept': 'application/json',
         'Authorization': 'Bearer '+localStorage.getItem('token')
