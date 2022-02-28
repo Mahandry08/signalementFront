@@ -13,7 +13,7 @@ function AdvancedSearch() {
   },[]);
 
   const getTypes = () =>{
-    api.get('http://localhost:9005/api/responsable/allTypeSignalement',{
+    api.get('https://signalementcloud.herokuapp.com/api/responsable/allTypeSignalement',{
       headers: {
         'Accept': 'application/json',
         'Authorization': 'Bearer '+localStorage.getItem('token')
