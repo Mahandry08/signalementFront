@@ -25,6 +25,7 @@ function Login() {
             mdp: password       
         }  
         console.log("SE LOGER");
+        console.log("update");
         axios.post("https://signalementcloud.herokuapp.com/api/responsable/login",  form )
         .then(             
         res=>{
